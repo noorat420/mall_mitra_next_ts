@@ -1,0 +1,69 @@
+.navbar {
+  background: linear-gradient(90deg, #5982c1, #2c0569);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.6rem 1rem;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
+  object-fit: contain;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+.brandName {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.link {
+  font-weight: 500;
+  margin: 0 12px;
+  color: #f1f1f1 !important;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.link:hover {
+  color: #ffd43b !important;
+  transform: translateY(-2px);
+}
+
+.cartIcon {
+  color: #fff !important;
+  position: relative;
+}
+
+.cartBadge {
+  background: #ffd43b;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px 6px;
+  position: absolute;
+  top: 2px;
+  right: -8px;
+}
+
+.searchInput {
+  border-radius: 8px 0 0 8px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.searchBtn {
+  background: #ffd43b;
+  color: #000;
+  border-radius: 0 8px 8px 0;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.searchBtn:hover {
+  background: #ffc107;
+}

@@ -1,0 +1,20 @@
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+  color: #333;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+}

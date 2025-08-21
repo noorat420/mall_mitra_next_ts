@@ -1,0 +1,84 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;         
+  width: 100%;           
+  padding: 10px;         
+  overflow: hidden;    
+  background: #fff;    
+  border-radius: 8px;    
+}
+
+.productImg {
+  max-width: 80%;        
+  max-height: 80%;     
+  object-fit: contain;   
+  transition: transform 0.3s ease;
+}
+
+.productImg:hover {
+  transform: scale(1.05); 
+}
+
+
+.title {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #222;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0 1rem;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flexInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0070f3;
+  margin-top: 0.5rem;
+}
+
+.button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #5982c1, #005bb5);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.7s;
+}
+.button:hover {
+  background: #005bb5;
+}

@@ -1,0 +1,49 @@
+.menubar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  gap: 35px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.menuItem:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 6px;
+}
+
+.menuImg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.menubar span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}
+/* hero*/

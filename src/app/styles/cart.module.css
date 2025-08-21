@@ -1,0 +1,30 @@
+.productImg {
+  max-width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productImg:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+.clear-btn {
+  transition: transform 0.2s ease;
+}
+
+.clear-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
