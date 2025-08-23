@@ -3,6 +3,7 @@ import styles from '../app/styles/home.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 export default function Home() {
  
   const offers = [
@@ -41,6 +42,7 @@ export default function Home() {
 
   return (
     <>
+   
       {/* ===== CATEGORY MENU BAR ===== */}
       <section className={styles.menubar}>
         {categories.map((cat, idx) => (
