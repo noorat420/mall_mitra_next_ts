@@ -10,7 +10,7 @@ import {
   selectLoading,
   selectError,
 } from "../store/ProductSlice";
-import Loading from './loading'; 
+
 
 export default function ProductsPage() {
   const dispatch = useDispatch<AppDispatch>();
@@ -22,8 +22,7 @@ export default function ProductsPage() {
     dispatch(fetchProducts());
   }, [dispatch]);
 
-  if (loading) return <Loading />;
-  if (error) return <p className={styles.error}>⚠️ {error}</p>;
+
 
   return (
     <>

@@ -2,10 +2,10 @@
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
 import Image from "next/image";
-
-
+import { useSelector} from "react-redux";
+import { selectCart } from '../store/CartSlice'
 function Navbar() {
-
+  const cart = useSelector(selectCart);
 
   return (
     <nav className={`${styles.navbar} navbar navbar-expand-lg sticky-top`}>
@@ -75,7 +75,7 @@ function Navbar() {
                 }`}
               >
                 <i className="bi bi-cart3 fs-5"></i>
-                <span className={styles.cartBadge}>2</span>
+                <span className={styles.cartBadge}>{cart.length}</span>
               </Link>
             </li>
           </ul>
