@@ -6,7 +6,6 @@ import Navbar from "./(components)/Navbar";
 import Footer from "./(components)/Footer";
 import { ReduxProvider } from "./store/Reduxprovider";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
